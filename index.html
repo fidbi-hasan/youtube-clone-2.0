@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube Clone by FH</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/videos.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+
+  <body>
+
+    <!-- head section -->
+    <header class="header">
+      <!-- left section -->
+      <div class="left-section">
+        <img class="hamburger-icon" src="icons/hamburger-menu.svg">
+        <div class="youtube-logo-container">
+          <img class="youtube-logo" src="images/youtube-logo.svg">
+          <div class="location">BD</div>
+        </div>
+      </div>
+
+      <!-- middle section -->
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search-icon.svg">
+          <div class="tooltip">
+            Search
+          </div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">
+            Search with your voice
+          </div>
+        </button>
+      </div>
+
+      <!-- right section -->
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload-icon.svg">
+          <div class="tooltip">
+            Create
+          </div>
+        </div>
+        <div class="youtube-apps-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps-icon.svg">
+          <div class="tooltip">
+            YouTube Apps
+          </div>
+        </div>
+        <div class="notifications-container">
+          <img class="notifications-icon" src="icons/notifications-icon.svg">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">
+            Notifications
+          </div>
+        </div>
+        
+        <img class="channel-profile-img" src="images/channel-profile-img.jpg">
+      </div>
+    </header>
+
+    <!-- sidebar -->
+     <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+     </nav>
+
+    
+     <main>
+      <!-- all videos section -->
+      <section class="all-videos-container">
+        <div class="single-video-container">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=lFm4EM1juls" target="_blank" class="video-link">
+              <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            </a>
+            <div class="video-time">7:12</div>
+          </div>
+          <div class="video-info">
+            <div class="profile-img-container">
+              <a href="https://www.youtube.com/channel/UCHAK6CyegY22Zj2GWrcaIxg" target="_blank">
+                <img class="profile-img" src="images/channel-profile-1.jpeg">
+              </a>
+              <!-- channel info tooltip  -->
+              <div class="tooltip-channel-info">
+                <img class="tooltip-profile-img" src="images/channel-profile-1.jpeg">
+                <div class="tooltip-info-container">
+                  <p class="tooltip-channel-name">
+                    Tech Vision
+                  </p>
+                  <p class="tooltip-subscriber-count">
+                    3M subscribers
+                  </p>  
+                </div>  
+              </div>
+              <!-- channel info tooltip  -->
+            </div>
+            <div class="about-video">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=lFm4EM1juls" target="_blank" class="video-link">
+                  Inside The World's Biggest Passenger Plane
+                </a>
+              </p>
+              <p class="channel-name">
+                Tech Vision
+              </p>
+              <p class="other-info">      
+                3.7M views &#183; 10 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="single-video-container">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=0nZuYyXET3s" target="_blank" class="video-link">
+              <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+            </a>
+            <div class="video-time">4:10</div>
+          </div>
+          <div class="video-info">
+            <div class="profile-img-container">
+              <a href="https://www.youtube.com/c/Destinationtips" target="_blank">
+                <img class="profile-img" src="images/channel-profile-2.jpeg">
+              </a>
+              <!-- channel info tooltip  -->
+              <div class="tooltip-channel-info">
+                <img class="tooltip-profile-img" src="images/channel-profile-2.jpeg">
+                <div class="tooltip-info-container">
+                  <p class="tooltip-channel-name">
+                    Destination Tips
+                  </p>
+                  <p class="tooltip-subscriber-count">
+                    3.8M subscribers
+                  </p>  
+                </div>  
+              </div>
+              <!-- channel info tooltip  -->
+            </div>
+            <div class="about-video">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=0nZuYyXET3s" target="_blank" class="video-link">
+                  Dubai's Crazy Underwater Train and Other Things Only in Dubai
+                </a>
+              </p>
+              <p class="channel-name">
+                Destination Tips
+              </p>
+              <p class="other-info">      
+                3M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="single-video-container">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=RE6R0z8e_MA&pp=ygULc3dpdHplcmxhbmQ%3D" target="_blank" class="video-link">
+              <img class="thumbnail" src="thumbnails/thumbnail-3.jpg">
+            </a>
+            <div class="video-time">24:08</div>
+          </div>
+          <div class="video-info">
+            <div class="profile-img-container">
+              <a href="https://www.youtube.com/@SylviaMichelPhotography" target="_blank">
+                <img class="profile-img" src="images/channel-profile-3.jpg">
+              </a>
+              <!-- channel info tooltip  -->
+              <div class="tooltip-channel-info">
+                <img class="tooltip-profile-img" src="images/channel-profile-3.jpg">
+                <div class="tooltip-info-container">
+                  <p class="tooltip-channel-name">
+                    Sylvia Michel Photography 
+                  </p>
+                  <p class="tooltip-subscriber-count">
+                    89.9K subscribers
+                  </p>  
+                </div>  
+              </div>
+              <!-- channel info tooltip  -->
+            </div>
+            <div class="about-video">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=RE6R0z8e_MA&pp=ygULc3dpdHplcmxhbmQ%3D" target="_blank" class="video-link">
+                  Autumn & winter start in Switzerland - Kleine Scheidegg - Niederhorn
+                </a>
+              </p>
+              <p class="channel-name">
+                Sylvia Michel Photography
+              </p>
+              <p class="other-info">      
+                16k views &#183; 1 day ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="single-video-container">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=eRUQPfVACs0&pp=ygUGbm9yd2F5" target="_blank" class="video-link">
+              <img class="thumbnail" src="thumbnails/thumbnail-4.jpg">
+            </a>
+            <div class="video-time">20:1</div>
+          </div>
+          <div class="video-info">
+            <div class="profile-img-container">
+              <a href="https://www.youtube.com/@8KWorld" target="_blank">
+                <img class="profile-img" src="images/channel-profile-4.jpg">
+              </a>
+              <!-- channel info tooltip  -->
+              <div class="tooltip-channel-info">
+                <img class="tooltip-profile-img" src="images/channel-profile-4.jpg">
+                <div class="tooltip-info-container">
+                  <p class="tooltip-channel-name">
+                    8K World
+                  </p>
+                  <p class="tooltip-subscriber-count">
+                    518k subscribers
+                  </p>  
+                </div>  
+              </div>
+              <!-- channel info tooltip  -->
+            </div>
+            <div class="about-video">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=eRUQPfVACs0&pp=ygUGbm9yd2F5" target="_blank" class="video-link">
+                  Norway in 8K ULTRA HD HDR - Most peaceful Country in the World (60 FPS)
+                </a>
+              </p>
+              <p class="channel-name">
+                8K World
+              </p>
+              <p class="other-info">      
+                5.1M views &#183; 3 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="single-video-container">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=3zTR4ayDG38&pp=ygUGbm9yd2F5" target="_blank" class="video-link">
+              <img class="thumbnail" src="thumbnails/thumbnail-5.jpg">
+            </a>
+            <div class="video-time">14:25</div>
+          </div>
+          <div class="video-info">
+            <div class="profile-img-container">
+              <a href="https://www.youtube.com/@jonnajinton" target="_blank">
+                <img class="profile-img" src="images/channel-profile-5.jpg">
+              </a>
+              <!-- channel info tooltip  -->
+              <div class="tooltip-channel-info">
+                <img class="tooltip-profile-img" src="images/channel-profile-5.jpg">
+                <div class="tooltip-info-container">
+                  <p class="tooltip-channel-name">
+                    Jonna Jinton
+                  </p>
+                  <p class="tooltip-subscriber-count">
+                    5.21M subscribers
+                  </p>  
+                </div>  
+              </div>
+              <!-- channel info tooltip  -->
+            </div>
+            <div class="about-video">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=3zTR4ayDG38&pp=ygUGbm9yd2F5" target="_blank" class="video-link">
+                  Living with the Dark Winters in Sweden | Midnight sun & Polar night
+                </a>
+              </p>
+              <p class="channel-name">
+                Jonna Jinton
+              </p>
+              <p class="other-info">      
+                20M views &#183; 3 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="single-video-container">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=QL2e7uGb96M&pp=ygUGbm9yd2F5" target="_blank" class="video-link">
+              <img class="thumbnail" src="thumbnails/thumbnail-6.jpg">
+            </a>
+            <div class="video-time">23:58</div>
+          </div>
+          <div class="video-info">
+            <div class="profile-img-container">
+              <a href="https://www.youtube.com/@lifeinnorway1" target="_blank">
+                <img class="profile-img" src="images/channel-profile-6.jpg">
+              </a>
+              <!-- channel info tooltip  -->
+              <div class="tooltip-channel-info">
+                <img class="tooltip-profile-img" src="images/channel-profile-6.jpg">
+                <div class="tooltip-info-container">
+                  <p class="tooltip-channel-name">
+                    Life in Norway
+                  </p>
+                  <p class="tooltip-subscriber-count">
+                    11.4K subscribers
+                  </p>  
+                </div>  
+              </div>
+              <!-- channel info tooltip  -->
+            </div>
+            <div class="about-video">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=QL2e7uGb96M&pp=ygUGbm9yd2F5" target="_blank" class="video-link">
+                  Norway Walks 4K: Central Bergen - Walking Tour of Downtown Bergen, Norway
+                </a>
+              </p>
+              <p class="channel-name">
+                Life in Norway
+              </p>
+              <p class="other-info">      
+                103K views &#183; 3 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="single-video-container">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=GxYGs0nDDJU" target="_blank" class="video-link">
+              <img class="thumbnail" src="thumbnails/thumbnail-7.jpg">
+            </a>
+            <div class="video-time">18:37</div>
+          </div>
+          <div class="video-info">
+            <div class="profile-img-container">
+              <a href="https://www.youtube.com/@SwissView1" target="_blank">
+                <img class="profile-img" src="images/channel-profile-7.jpg">
+              </a>
+              <!-- channel info tooltip  -->
+              <div class="tooltip-channel-info">
+                <img class="tooltip-profile-img" src="images/channel-profile-7.jpg">
+                <div class="tooltip-info-container">
+                  <p class="tooltip-channel-name">
+                    Swiss View
+                  </p>
+                  <p class="tooltip-subscriber-count">
+                    298K subscribers
+                  </p>  
+                </div>  
+              </div>
+              <!-- channel info tooltip  -->
+            </div>
+            <div class="about-video">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=GxYGs0nDDJU" target="_blank" class="video-link">
+                  World's Most Scenic Train Journey in Switzerland _ Schynige Platte , Top of Swiss Tradition
+                </a>
+              </p>
+              <p class="channel-name">
+                Swiss View
+              </p>
+              <p class="other-info">      
+                678K views &#183; 3 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="single-video-container">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=u7GXgA8oL5g&pp=ygUUZW5nbGFuZCBvbGQgdmlsbGFnZXM%3D" target="_blank" class="video-link">
+              <img class="thumbnail" src="thumbnails/thumbnail-8.jpg">
+            </a>
+            <div class="video-time">11:29</div>
+          </div>
+          <div class="video-info">
+            <div class="profile-img-container">
+              <a href="https://www.youtube.com/@viewsofcities" target="_blank">
+                <img class="profile-img" src="images/channel-profile-8.jpg">
+              </a>
+              <!-- channel info tooltip  -->
+              <div class="tooltip-channel-info">
+                <img class="tooltip-profile-img" src="images/channel-profile-8.jpg">
+                <div class="tooltip-info-container">
+                  <p class="tooltip-channel-name">
+                    views of cities
+                  </p>
+                  <p class="tooltip-subscriber-count">
+                    10.1K subscribers
+                  </p>  
+                </div>  
+              </div>
+              <!-- channel info tooltip  -->
+            </div>
+            <div class="about-video">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=u7GXgA8oL5g&pp=ygUUZW5nbGFuZCBvbGQgdmlsbGFnZXM%3D" target="_blank" class="video-link">
+                  Day Trip to CANTERBURY [4K]
+                </a>
+              </p>
+              <p class="channel-name">
+                views of cities
+              </p>
+              <p class="other-info">      
+                1.3M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="single-video-container">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=YGAsG6_JgAI&pp=ygUFc3BhaW4%3D" target="_blank" class="video-link">
+              <img class="thumbnail" src="thumbnails/thumbnail-9.jpg">
+            </a>
+            <div class="video-time">1:00:45</div>
+          </div>
+          <div class="video-info">
+            <div class="profile-img-container">
+              <a href="https://www.youtube.com/@ScenicRelaxationFilms" target="_blank">
+                <img class="profile-img" src="images/channel-profile-9.jpg">
+              </a>
+              <!-- channel info tooltip  -->
+              <div class="tooltip-channel-info">
+                <img class="tooltip-profile-img" src="images/channel-profile-9.jpg">
+                <div class="tooltip-info-container">
+                  <p class="tooltip-channel-name">
+                    Scenic Relaxation
+                  </p>
+                  <p class="tooltip-subscriber-count">
+                    1.32M subscribers
+                  </p>  
+                </div>  
+              </div>
+              <!-- channel info tooltip  -->
+            </div>
+            <div class="about-video">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=YGAsG6_JgAI&pp=ygUFc3BhaW4%3D" target="_blank" class="video-link">
+                  Spain 4K - Scenic Relaxation Film With Calming Music
+                </a>
+              </p>
+              <p class="channel-name">
+                Scenic Relaxation
+              </p>
+              <p class="other-info">      
+                4.2M views &#183; 3 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="single-video-container">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=uvJfZutjpHA&pp=ygUPZGVhdGggdmFsbGV5IDRr" target="_blank" class="video-link">
+              <img class="thumbnail" src="thumbnails/thumbnail-10.jpg">
+            </a>
+            <div class="video-time">3:42</div>
+          </div>
+          <div class="video-info">
+            <div class="profile-img-container">
+              <a href="https://www.youtube.com/@MoreThanJustParks" target="_blank">
+                <img class="profile-img" src="images/channel-profile-10.jpg">
+              </a>
+              <!-- channel info tooltip  -->
+              <div class="tooltip-channel-info">
+                <img class="tooltip-profile-img" src="images/channel-profile-10.jpg">
+                <div class="tooltip-info-container">
+                  <p class="tooltip-channel-name">
+                    More Than Just Parks
+                  </p>
+                  <p class="tooltip-subscriber-count">
+                    11.4K subscribers
+                  </p>  
+                </div>  
+              </div>
+              <!-- channel info tooltip  -->
+            </div>
+            <div class="about-video">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=uvJfZutjpHA&pp=ygUPZGVhdGggdmFsbGV5IDRr" target="_blank" class="video-link">
+                  DEATH VALLEY National Park 8K (Visually Stunning 3min Tour)
+                </a>
+              </p>
+              <p class="channel-name">
+                More Than Just Parks
+              </p>
+              <p class="other-info">      
+                55K views &#183; 6 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="single-video-container">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=lvg82iBxqBA&pp=ygUPaGFyYmluIGNoaW5hIDRr" target="_blank" class="video-link">
+              <img class="thumbnail" src="thumbnails/thumbnail-11.jpg">
+            </a>
+            <div class="video-time">54:59</div>
+          </div>
+          <div class="video-info">
+            <div class="profile-img-container">
+              <a href="https://www.youtube.com/@SEIWOORI" target="_blank">
+                <img class="profile-img" src="images/channel-profile-11.jpg">
+              </a>
+              <!-- channel info tooltip  -->
+              <div class="tooltip-channel-info">
+                <img class="tooltip-profile-img" src="images/channel-profile-11.jpg">
+                <div class="tooltip-info-container">
+                  <p class="tooltip-channel-name">
+                    Seiu Travel
+                  </p>
+                  <p class="tooltip-subscriber-count">
+                    2.85K subscribers
+                  </p>  
+                </div>  
+              </div>
+              <!-- channel info tooltip  -->
+            </div>
+            <div class="about-video">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=lvg82iBxqBA&pp=ygUPaGFyYmluIGNoaW5hIDRr" target="_blank" class="video-link">
+                  [4K] Walking in The Ice City Harbin, China at a snowy night｜Taking a morning walk after the snow.
+                </a>
+              </p>
+              <p class="channel-name">
+                Seiu Travel
+              </p>
+              <p class="other-info">      
+                15K views &#183; 8 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="single-video-container">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=lyh2kAjcmSY&pp=ygUJbW9zY293IDRr" target="_blank" class="video-link">
+              <img class="thumbnail" src="thumbnails/thumbnail-12.jpg">
+            </a>
+            <div class="video-time">55:41</div>
+          </div>
+          <div class="video-info">
+            <div class="profile-img-container">
+              <a href="https://www.youtube.com/@ScenicRelaxationFilms" target="_blank">
+                <img class="profile-img" src="images/channel-profile-12.jpg">
+              </a>
+              <!-- channel info tooltip  -->
+              <div class="tooltip-channel-info">
+                <img class="tooltip-profile-img" src="images/channel-profile-12.jpg">
+                <div class="tooltip-info-container">
+                  <p class="tooltip-channel-name">
+                    Scenic Relaxation
+                  </p>
+                  <p class="tooltip-subscriber-count">
+                    1.32M subscribers
+                  </p>  
+                </div>  
+              </div>
+              <!-- channel info tooltip  -->
+            </div>
+            <div class="about-video">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=lyh2kAjcmSY&pp=ygUJbW9zY293IDRr" target="_blank" class="video-link">
+                  Russia 4K - Scenic Relaxation Film with Calming Music
+                </a>
+              </p>
+              <p class="channel-name">
+                Scenic Relaxation
+              </p>
+              <p class="other-info">      
+                9.1M views &#183; 3 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+     </main>
+    
+  </body>
+</html>
+
+<!-- YouTube Clone | A Practice Project by Fidbi Hasan  -->
